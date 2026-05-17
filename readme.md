@@ -41,5 +41,5 @@ pip install -r requirements.txt
 ### Or we directly use environment.yml
 ```
 conda env create -f environment.yml
-conda activate ML4G
+conda activate ML4G-test
 ```
