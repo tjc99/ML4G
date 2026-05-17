@@ -31,6 +31,9 @@ git clone --depth 1 https://github.com/EffiSciencesResearch/ML4G.git
 cd ML4G
 conda create --name ML4G python=3.9 -y
 conda activate ML4G
-conda install pytorch=1.11.0 torchtext torchdata torchvision cudatoolkit=11.3 -c pytorch -y
+
+conda install pytorch=1.11.0 torchvision=0.12.0 torchtext=0.12.0 cudatoolkit=11.3 numpy=1.26.4 -c pytorch -y
+
 pip install -r requirements.txt
 ```
+### Note: We pin `numpy==1.26.4` because PyTorch 1.11.0 is not compatible with NumPy 2.x.
