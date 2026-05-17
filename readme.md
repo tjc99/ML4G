@@ -37,3 +37,7 @@ conda install pytorch=1.11.0 torchvision=0.12.0 torchtext=0.12.0 cudatoolkit=11.
 pip install -r requirements.txt
 ```
 ### Note: We pin `numpy==1.26.4` because PyTorch 1.11.0 is not compatible with NumPy 2.x.
+
+### Or we directly use environment.yml
+conda env create -f environment.yml
+conda activate ML4G
