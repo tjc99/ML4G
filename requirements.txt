@@ -1,11 +1,11 @@
-# Make sure to install the torch dependencies with conda:
-# conda install pytorch=1.11.0 torchdata torchvision -c pytorch -y
+# Torch and NumPy dependencies are installed separately with conda:
+# conda install pytorch=1.11.0 torchvision=0.12.0 torchtext=0.12.0 cudatoolkit=11.3 numpy=1.26.4 -c pytorch -y
 
 gym==0.23.1
 fancy_einsum
 einops
 requests
-transformers
+transformers==4.27.4
 pytest
 click
 joblib
@@ -18,18 +18,18 @@ flask
 matplotlib
 numpy-stl
 mediapy
-pandas
+pandas<2.1
 scikit-learn
 black
 wandb
-sentence-transformers
+sentence-transformers==2.2.2
 ftfy
 tensorboard
 pygame
 plotly
 sympy
-accelerate
+accelerate==0.18.0
 pre-commit
 tensorboard
-diffusers
+diffusers==0.14.0
 torchtyping
