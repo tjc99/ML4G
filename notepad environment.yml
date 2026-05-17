@@ -1,0 +1,44 @@
+name: ML4G
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.9
+  - pytorch=1.11.0
+  - torchvision=0.12.0
+  - torchtext=0.12.0
+  - cudatoolkit=11.3
+  - numpy=1.26.4
+  - pip
+  - pip:
+      - gym==0.23.1
+      - fancy_einsum
+      - einops
+      - requests
+      - transformers==4.27.4
+      - pytest
+      - click
+      - joblib
+      - tqdm
+      - ipykernel
+      - notebook
+      - ipywidgets
+      - jupyter
+      - flask
+      - matplotlib
+      - numpy-stl
+      - mediapy
+      - pandas<2.1
+      - scikit-learn
+      - black
+      - wandb
+      - sentence-transformers==2.2.2
+      - ftfy
+      - tensorboard
+      - pygame
+      - plotly
+      - sympy
+      - accelerate==0.18.0
+      - pre-commit
+      - diffusers==0.14.0
+      - torchtyping
