@@ -1,4 +1,4 @@
-name: ML4G
+name: ML4G-test
 channels:
   - pytorch
   - defaults
